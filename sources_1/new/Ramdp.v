@@ -22,7 +22,7 @@
 
 module Ramdp(  
 input clk,wr,rd,
-input[9:0]add,// size of the memory = 2^10 x 8 bits
+ input[8:0]add,// size of the memory = 2^10 x 8 bits
  input [7:0]din,//8bits
  output reg [7:0]dout );
  
